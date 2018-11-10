@@ -19,10 +19,8 @@ const messageSchema = new Schema({
     text: {
         type: String,
         required: true,
-        //validate: [validator.isEmpty, 'Please provide some text message'],
         maxlength: 100,
         trim: true,
-        //minlength: 1
 
     },
     createDate: {

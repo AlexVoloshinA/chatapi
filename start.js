@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
-
+mongoose.set('useFindAndModify', false);
+mongoose.set('useCreateIndex', true);
+mongoose.set('useNewUrlParser', true);
 
 // Import environmental variables from our variables.env file
 require('dotenv').config({path: 'variables.env'});
