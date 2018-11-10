@@ -4,7 +4,7 @@
   "description": "Node.js application - public chat room(only RESTful API).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node start.js"
   },
   "repository": {
     "type": "git",
