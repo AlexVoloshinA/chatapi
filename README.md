@@ -17,7 +17,7 @@ For installing and testing the app please do following examples
 npm install
 ```
 
-And then run
+Please add your path to DB And then run
 
 ```
 npm start
