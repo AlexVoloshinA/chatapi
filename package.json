@@ -1,0 +1,26 @@
+{
+  "name": "chatapi",
+  "version": "1.0.0",
+  "description": "Node.js application - public chat room(only RESTful API).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexVoloshinA/chatapi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexVoloshinA/chatapi/issues"
+  },
+  "homepage": "https://github.com/AlexVoloshinA/chatapi#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.10"
+  }
+}
